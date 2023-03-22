@@ -1,0 +1,133 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+header {
+	top: 0;
+	height: 69px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	border-bottom: 1px solid seashell;
+	justify-content: space-between;
+	background-color: black;
+}
+
+#logo {
+	top: 0;
+	height: 50px;
+	margin-left: 30px;
+}
+
+#nav {
+	margin-right: 30px;
+}
+#nav li {
+	display: inline;
+	align-items: flex-end;
+	padding: 10px;
+}
+
+#nav li:hover {
+	text-decoration: underline;
+}
+
+#container2 {
+	background-image: url(./images/img-mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+	top: 70px;
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.mission {
+	background-color: black;
+	width: 1200px;
+}
+
+h2,
+h4,
+h3,
+h5,
+p {
+	margin-top: 15px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+#container3 {
+	position: relative;
+	top: 150px;
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#cinciimagini {
+	display: inline-flex;
+	flex-wrap: wrap;
+	line-height: 10px;
+	justify-content: center;
+}
+
+.colectie {
+	margin: 15px;
+}
+
+.colectie img {
+	height: 200px;
+	width: 300px;
+}
+
+#container4 {
+	position: relative;
+	top: 200px;
+	margin: 0 auto;
+	background-image: url(./images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cutieneagra {
+	background-color: black;
+	opacity: 1;
+	width: 300px;
+	margin: 20px;
+}
+
+.treibucati {
+	display: inline-flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+#container5 {
+	position: relative;
+	top: 250px;
+	height: 200px;
+}
+
+#left {
+	text-align: left;
+	right: 20px;
+	margin-top: 250px;
+}
+
+a {
+	color: seashell;
+	text-decoration: none;
+}
